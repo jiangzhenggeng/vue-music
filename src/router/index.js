@@ -13,6 +13,7 @@ const TopList = () => import('components/top-list/top-list')
 const UserCenter = () => import('components/user-center/user-center')
 
 export default new Router({
+  mode: 'history',
   routes: [
     {
       path: '/',
